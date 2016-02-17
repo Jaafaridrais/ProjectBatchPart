@@ -1,0 +1,3 @@
+SELECT c.id, c.noCompte, t.id, t.montant, c.date
+FROM `cashretracted` c, transaction t
+WHERE c.transaction_id = t.id
